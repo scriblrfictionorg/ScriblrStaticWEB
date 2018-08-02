@@ -1420,19 +1420,67 @@ font-size: 1.35vw;
 	color: #626262;
 }
 
-
 .faq-answer{
-	margin-left:20px;
+	margin-left: 20px;
 	margin-bottom: 20px;
 	font-weight: normal;
 	color: #626262;
 }
 
-
-
-
-
-
-
-
-
+@media screen and (min-width: 240px) and (max-width: 992px) {
+	.icon-holder-para {
+		font-size: 22px;
+	}
+	.icon-holder-title {
+		font-size: 28px;
+	}
+	.list-style-fancy li p {
+		font-size: 20px;
+	}
+	.writer-tagline {
+		font-size: 18px;
+	}
+	.title-for-x {
+		font-size: 24px;
+	}
+	.main-header {
+		font-size: 26px;
+	}
+	.vision-headers {
+		font-size: 20px;
+	}
+	.pink-add-on {
+		font-size: 18px;
+	}
+	.mission-text {
+		font-size: 36px;
+	}
+	.mission-header {
+		font-size: 44px;
+	}
+	.talents-needed {
+		font-size: 36px;
+	}
+	.topic-card {
+		height: 20vw;
+		width: 30vw;
+	}
+	.general-field {
+		font-size: 32px;
+	}
+	.requirements {
+		font-size: 18px;
+	}
+	.faq-header {
+		font-size: 28px;
+	}
+	.faq-question {
+		font-size: 22px;
+	}
+	.faq-answer {
+		font-size: 20px;
+	}
+	.stylized-list {
+		font-size: 20px;
+	}
+}
