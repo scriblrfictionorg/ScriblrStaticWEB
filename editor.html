@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Scriblr</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,500' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="icon" type="image/x-icon" href="img/nib.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	<nav class="top-navigation">
+        <div class="content">
+        	<img class="logo" src="img/scriblrnib.png" alt="Logo Image">
+<!--            <img class="main-logo" src="img/logo.png" alt="main logo">-->
+        	<ul class="links">
+			    <li class="active"><a id="homeid" href="index.html">Home</a></li>
+			    <li><a id="whatisid" href="index.html#what-is">What Is Scriblr</a></li>
+                <li><a id="visionid" href="#vision">Vision</a></li>
+			    <li><a id="aboutid" href="#about">About Us</a></li>
+			    <li><a id="investorsid" href="new-investors.html">For Investors</a></li>
+			    <li><a id="careersid" href="careers.html">Careers</a></li>
+			    <li><a id="contestid" href="contest.html">Contest</a></li>
+<!--			    <li><a href="#">Blog</a></li>-->
+			</ul>
+        </div>
+    </nav>
+
+    <div class="editor-container">
+    	<div id="editor-header"> Editor</div>
+    	<form name="content" method="POST" action="https://formspree.io/scriblrstories@gmail.com">
+    		<label class="contest-labels leftened" for="fullname">Full Name</label>
+    		<input  class="form-block" type="text" name="fullname" placeholder="Enter your full name."> 
+    		<label class="contest-labels leftened" for="editor">Story</label>
+    		<p class="pendesc leftened">Enter the story or poem wish you wish to submit for the competition. </p>
+    		<textarea class="form-block" name="editor" id="contest-editor"> </textarea>
+    		<input type="submit" class="contest-button" name="submit" value="Submit Story" required>
+    	</form>
+    </div>
+
+
+
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
