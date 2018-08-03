@@ -1483,4 +1483,33 @@ font-size: 1.35vw;
 	.stylized-list {
 		font-size: 20px;
 	}
+
+	.format-card {
+		height: 40vw;
+		width: 100%;
+	}
+	.format-card-title {
+		font-size: 34px;
+	}
+	.iphone {
+		left: 60%;
+	}
+	.format-white-box {
+		font-size: 26px;
+		top: -52%;
+	}
+	.section-header-bold {
+		top: 4vw !important;
+		font-size: 44px;
+	}
+	.image-trifecta, .icon-holder-title {
+		left: 0;
+	}
+	.icon-holder {
+		width: auto;
+		text-align: center;
+	}
+	.image-trifecta {
+		width: 10vw;
+	}
 }
