@@ -1448,6 +1448,7 @@ font-size: 1.35vw;
 	}
 	.vision-headers {
 		font-size: 20px;
+		max-width: 120px;
 	}
 	.pink-add-on {
 		font-size: 18px;
